@@ -1,0 +1,71 @@
+body {
+    background: #E5E5E5;
+}
+
+.sponsors-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.directtions {
+    padding: 50px;
+    align-self: center;
+    display: flex;
+}
+
+.directtions  .back-icon , .forward-icon {
+    background: linear-gradient(222.19deg, #65BAF8 22.5%, #0B60DF 85.85%);
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hide-card {
+    display: none
+}
+
+.sponsor-card {
+    background: #FFF;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 5px 10px 8px #888888;
+    margin-left: 5rem;
+    transition: background ease-in 0.2s;
+    transition: border ease-out 0.1s;
+}
+
+.sponsor-card:hover {
+    border-bottom: 15px solid #0B60DF;
+    border-left: 15px solid #0B60DF;
+    
+}
+
+.sponsor-card img {
+    height: 300px;
+    width: 330px;
+}
+.sponsor-card .sponsor-discription {
+    color: #0B60DF;
+}
+
+.sponsor-card .learn-more-btn {
+    background : linear-gradient(138.61deg, #0B60DF -20.48%, #1D8FE3 -1.65%, #0B60DF 97.94%);
+    padding: 10px;
+    color: #FFF;
+    font-size: 20px;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
