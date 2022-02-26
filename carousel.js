@@ -1,21 +1,27 @@
 // Grabbing dom elements 
-
 const forwardMove  = document.querySelector('.forward-icon');
 const backMove = document.querySelector('.back-icon');
 const sponsorsCards = document.querySelectorAll('.sponsor-card');
+backMove.classList.add('end');
 
 
 const disableButtons = function() {
     if (sponsorsCards[sponsorsCards.length - 1].classList.contains('active')) {
         forwardMove.disabled = true;
+        forwardMove.classList.add('end');
+
     } else {
         forwardMove.disabled = false;
+        forwardMove.classList.remove('end');
     }
 
     if (sponsorsCards[0].classList.contains('active')) {
         backMove.disabled = true;
+        backMove.classList.add('end');
+
     } else {
         backMove.disabled = false;
+        backMove.classList.remove('end');
     }
 }
 

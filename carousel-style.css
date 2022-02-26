@@ -10,7 +10,7 @@ body {
 
 .directtions {
     padding: 50px;
-    align-self: center;
+    align-self: end;
     display: flex;
 }
 
@@ -19,7 +19,14 @@ body {
     margin-right: 10px;
     padding: 20px;
     border-radius: 50%;
+    border: none;
     cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.end {
+    background: #FFF !important;
+    
 }
 
 
